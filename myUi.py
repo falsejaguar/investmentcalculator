@@ -200,7 +200,9 @@ class Ui_MainWindow(object):
 "    background-color: #ccc;\n"
 "}\n"
 "\n"
-"")
+"QLabel{\n"
+"	color: #f0f8ff;\n"
+"}")
         self.centralwidget = QWidget(MainWindow)
         self.centralwidget.setObjectName(u"centralwidget")
         sizePolicy.setHeightForWidth(self.centralwidget.sizePolicy().hasHeightForWidth())
