@@ -1,0 +1,859 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>884</width>
+    <height>909</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="palette">
+   <palette>
+    <active>
+     <colorrole role="WindowText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Button">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Light">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>14</red>
+        <green>84</green>
+        <blue>10</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Text">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="ButtonText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Highlight">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>200</red>
+        <green>243</green>
+        <blue>100</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="LinkVisited">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>37</red>
+        <green>40</green>
+        <blue>182</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="PlaceholderText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="128">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </active>
+    <inactive>
+     <colorrole role="WindowText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Button">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Light">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>14</red>
+        <green>84</green>
+        <blue>10</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Text">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="ButtonText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Highlight">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>200</red>
+        <green>243</green>
+        <blue>100</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="LinkVisited">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>37</red>
+        <green>40</green>
+        <blue>182</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="PlaceholderText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="128">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </inactive>
+    <disabled>
+     <colorrole role="WindowText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Button">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Light">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>14</red>
+        <green>84</green>
+        <blue>10</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Text">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="ButtonText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Highlight">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>40</red>
+        <green>44</green>
+        <blue>48</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="LinkVisited">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>37</red>
+        <green>40</green>
+        <blue>182</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="PlaceholderText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="128">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </disabled>
+   </palette>
+  </property>
+  <property name="cursor">
+   <cursorShape>ArrowCursor</cursorShape>
+  </property>
+  <property name="windowTitle">
+   <string>Investment Calculator</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>:/icons/icons/calculate.png</normaloff>:/icons/icons/calculate.png</iconset>
+  </property>
+  <property name="windowOpacity">
+   <double>0.950000000000000</double>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#centralwidget {
+    background-color: #000000;
+	color: 'white';
+
+
+}
+
+QMainWindow {
+    background-color: #000000; /* Black background */
+	color: 'white';
+}
+
+QPushButton {
+    background-color: #2E7D32; /* Dark green background */
+    border: 2px solid #FFD700; /* Gold border */
+    border-radius: 14px; /* Rounded corners */
+    /*font-family: &quot;Math Jax_AMS&quot;; /* Built-in font */
+    /*font-size: 19px; /* Font size */
+    padding: 7px; /* Padding around the text */
+    color: #de7a63; /* White text */
+}
+
+QPushButton:hover {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 #2E7D32, stop:1 #1B5E20); /* Gradient on hover */
+}
+
+QPushButton:pressed {
+    background-color: #004D40; /* Darker green on press */
+    border: 3px solid #C0C0C0; /* Silver border on press */
+}
+
+QPushButton:disabled {
+    background-color: #A0A0A0; /* Grey background when disabled */
+    border: 3px solid #A0A0A0; /* Grey border when disabled */
+    color: #ffffff; /* White text when disabled */
+}
+
+QRadioButton {
+    /*font-family: &quot;Courier New&quot;; /* Built-in font */
+    /*font-size: 16px; /* Font size */
+    color: #de7a63; /* Light grey text */
+}
+
+QRadioButton::indicator {
+    width: 16px;
+    height: 16px;
+}
+
+QRadioButton::indicator::unchecked {
+    border: 2px solid #FFD700; /* Gold border */
+    background-color: #2E7D32; /* Dark green */
+    border-radius: 8px;
+}
+
+QRadioButton::indicator::checked {
+    border: 2px solid #FFD700; /* Gold border */
+    background-color: #FFD700; /* Gold background */
+    border-radius: 8px;
+}
+
+QLineEdit {
+    border: 2px solid #FFD700; /* Gold border */
+    background-color: #a3b8c8; /* Dark green background */
+    color: white; /* White text */
+    /*font-family: &quot;Courier New&quot;; /* Built-in font */
+    font-size: 16px; /* Font size */
+    padding: 5px; /* Padding */
+    border-radius: 10px;
+}
+
+QLineEdit:hover {
+    border: 2px solid #FFD700; /* Gold border */
+    background-color: #00ffff; /* Darker green on hover */
+}
+
+QLineEdit:focus {
+    border: 2px solid #FFD700; /* Gold border */
+    background-color: #7fb5b0; /* Slightly lighter green on focus */
+}
+QLCDNumber {
+    background-color: #000000; /* Black background */
+    color: #00FF00; /* Bright green text */
+    border: 2px solid #FFD700; /* Gold border for consistency */
+    border-radius: 10px; /* Rounded corners */
+    padding: 5px; /* Padding around the display */
+}
+
+QCheckBox {
+    padding: 6px;
+	border: 2px solid #fef65b; /* Black border */
+    border-radius: 4px; 
+	color: #de7a63;
+	background-color: #05313d;
+}
+
+QCheckBox::indicator {
+    width: 20px;
+    height: 20px;
+}
+
+QCheckBox::indicator:checked {
+    background-color: #2196F3;
+}
+
+QCheckBox::indicator:unchecked {
+    background-color: #ccc;
+}
+
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="1" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item alignment="Qt::AlignHCenter">
+       <widget class="QRadioButton" name="dailyRadioButton">
+        <property name="cursor">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="text">
+         <string>Daily</string>
+        </property>
+       </widget>
+      </item>
+      <item alignment="Qt::AlignHCenter">
+       <widget class="QRadioButton" name="monthlyRadioButton">
+        <property name="cursor">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="text">
+         <string>Monthly</string>
+        </property>
+        <property name="checked">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item alignment="Qt::AlignHCenter">
+       <widget class="QRadioButton" name="quarterlyRadioButton">
+        <property name="cursor">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="text">
+         <string>Quarterly</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="0" column="0">
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item alignment="Qt::AlignHCenter">
+       <widget class="QLabel" name="titleLabel">
+        <property name="font">
+         <font>
+          <family>Rozha One</family>
+          <pointsize>36</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0 rgba(255, 235, 235, 206), stop:0.35 rgba(255, 188, 188, 80), stop:0.4 rgba(255, 162, 162, 80), stop:0.425 rgba(255, 132, 132, 156), stop:0.44 rgba(252, 128, 128, 80), stop:1 rgba(255, 255, 255, 0));
+</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::NoFrame</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <property name="text">
+         <string>Investment Calculator</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <layout class="QGridLayout" name="gridLayout_2">
+        <property name="leftMargin">
+         <number>70</number>
+        </property>
+        <property name="topMargin">
+         <number>2</number>
+        </property>
+        <property name="rightMargin">
+         <number>70</number>
+        </property>
+        <property name="bottomMargin">
+         <number>2</number>
+        </property>
+        <property name="horizontalSpacing">
+         <number>132</number>
+        </property>
+        <property name="verticalSpacing">
+         <number>2</number>
+        </property>
+        <item row="7" column="1" alignment="Qt::AlignLeft">
+         <widget class="QLCDNumber" name="yr6">
+          <property name="digitCount">
+           <number>9</number>
+          </property>
+          <property name="segmentStyle">
+           <enum>QLCDNumber::Flat</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1" alignment="Qt::AlignLeft">
+         <widget class="QLCDNumber" name="yr1">
+          <property name="smallDecimalPoint">
+           <bool>false</bool>
+          </property>
+          <property name="digitCount">
+           <number>9</number>
+          </property>
+          <property name="segmentStyle">
+           <enum>QLCDNumber::Flat</enum>
+          </property>
+          <property name="value" stdset="0">
+           <double>0.000000000000000</double>
+          </property>
+         </widget>
+        </item>
+        <item row="10" column="0" alignment="Qt::AlignRight">
+         <widget class="QLabel" name="label_16">
+          <property name="text">
+           <string>Year Nine</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="1" alignment="Qt::AlignLeft">
+         <widget class="QLCDNumber" name="yr3">
+          <property name="digitCount">
+           <number>9</number>
+          </property>
+          <property name="segmentStyle">
+           <enum>QLCDNumber::Flat</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="12" column="1" alignment="Qt::AlignLeft">
+         <widget class="QLCDNumber" name="yr11">
+          <property name="digitCount">
+           <number>9</number>
+          </property>
+          <property name="segmentStyle">
+           <enum>QLCDNumber::Flat</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="9" column="0" alignment="Qt::AlignRight">
+         <widget class="QLabel" name="label_21">
+          <property name="text">
+           <string>Year Eight</string>
+          </property>
+         </widget>
+        </item>
+        <item row="8" column="0" alignment="Qt::AlignRight">
+         <widget class="QLabel" name="label_19">
+          <property name="text">
+           <string>Year Seven</string>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="1" alignment="Qt::AlignLeft">
+         <widget class="QLCDNumber" name="yr5">
+          <property name="digitCount">
+           <number>9</number>
+          </property>
+          <property name="segmentStyle">
+           <enum>QLCDNumber::Flat</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="0" alignment="Qt::AlignRight">
+         <widget class="QLabel" name="label_20">
+          <property name="text">
+           <string>Year Five</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0" alignment="Qt::AlignRight">
+         <widget class="QLabel" name="label_13">
+          <property name="text">
+           <string>Year Two</string>
+          </property>
+         </widget>
+        </item>
+        <item row="11" column="1" alignment="Qt::AlignLeft">
+         <widget class="QLCDNumber" name="yr10">
+          <property name="digitCount">
+           <number>9</number>
+          </property>
+          <property name="segmentStyle">
+           <enum>QLCDNumber::Flat</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="9" column="1" alignment="Qt::AlignLeft">
+         <widget class="QLCDNumber" name="yr8">
+          <property name="digitCount">
+           <number>9</number>
+          </property>
+          <property name="segmentStyle">
+           <enum>QLCDNumber::Flat</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="7" column="0" alignment="Qt::AlignRight">
+         <widget class="QLabel" name="label_18">
+          <property name="text">
+           <string>Year Six</string>
+          </property>
+         </widget>
+        </item>
+        <item row="11" column="0" alignment="Qt::AlignRight">
+         <widget class="QLabel" name="label_15">
+          <property name="text">
+           <string>Year Ten</string>
+          </property>
+         </widget>
+        </item>
+        <item row="12" column="0" alignment="Qt::AlignRight">
+         <widget class="QLabel" name="label_8">
+          <property name="text">
+           <string>Year Eleven</string>
+          </property>
+         </widget>
+        </item>
+        <item row="8" column="1" alignment="Qt::AlignLeft">
+         <widget class="QLCDNumber" name="yr7">
+          <property name="digitCount">
+           <number>9</number>
+          </property>
+          <property name="segmentStyle">
+           <enum>QLCDNumber::Flat</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="0" alignment="Qt::AlignRight">
+         <widget class="QLabel" name="label_17">
+          <property name="text">
+           <string>Year Four</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="1" alignment="Qt::AlignLeft">
+         <widget class="QLCDNumber" name="yr4">
+          <property name="digitCount">
+           <number>9</number>
+          </property>
+          <property name="segmentStyle">
+           <enum>QLCDNumber::Flat</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="0" alignment="Qt::AlignRight">
+         <widget class="QLabel" name="label_11">
+          <property name="text">
+           <string>Year Three</string>
+          </property>
+         </widget>
+        </item>
+        <item row="10" column="1" alignment="Qt::AlignLeft">
+         <widget class="QLCDNumber" name="yr9">
+          <property name="digitCount">
+           <number>9</number>
+          </property>
+          <property name="segmentStyle">
+           <enum>QLCDNumber::Flat</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1" alignment="Qt::AlignLeft">
+         <widget class="QLCDNumber" name="yr2">
+          <property name="digitCount">
+           <number>9</number>
+          </property>
+          <property name="segmentStyle">
+           <enum>QLCDNumber::Flat</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0" alignment="Qt::AlignRight">
+         <widget class="QLabel" name="label_7">
+          <property name="text">
+           <string>Year One</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_3">
+          <item>
+           <widget class="QLabel" name="label_5">
+            <property name="text">
+             <string>Initial Investment Amount: </string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_4">
+            <property name="text">
+             <string>Interest Rate (%)</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="l_additionLabel">
+            <property name="text">
+             <string>Additional Contributions Per Month: </string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="l_cagrLabel">
+            <property name="text">
+             <string>Dividend CAGR (%): </string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="l_apLabel">
+            <property name="text">
+             <string>Estimated Unit Appreciation Per Year (%): </string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_2">
+          <item>
+           <widget class="QLineEdit" name="inAmount">
+            <property name="text">
+             <string>0</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="intRate">
+            <property name="text">
+             <string>0</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="adAmount">
+            <property name="text">
+             <string>0</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="divCagr">
+            <property name="text">
+             <string>0</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="estAp">
+            <property name="text">
+             <string>0</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <spacer name="verticalSpacer">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>225</width>
+            <height>32</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item row="2" column="0" alignment="Qt::AlignHCenter|Qt::AlignBottom">
+     <widget class="QPushButton" name="goButton">
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="text">
+       <string>Go!</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0" alignment="Qt::AlignRight">
+     <widget class="QCheckBox" name="checkBox">
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="text">
+       <string>Advanced</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>884</width>
+     <height>34</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="calcres.qrc"/>
+ </resources>
+ <connections/>
+</ui>
