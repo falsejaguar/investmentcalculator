@@ -202,6 +202,7 @@ class Ui_MainWindow(object):
 "\n"
 "QLabel{\n"
 "	color: #f0f8ff;\n"
+"	font-size: 20px;\n"
 "}")
         self.centralwidget = QWidget(MainWindow)
         self.centralwidget.setObjectName(u"centralwidget")
@@ -239,7 +240,6 @@ class Ui_MainWindow(object):
         self.titleLabel.setObjectName(u"titleLabel")
         font = QFont()
         font.setFamilies([u"Rozha One"])
-        font.setPointSize(36)
         self.titleLabel.setFont(font)
         self.titleLabel.setStyleSheet(u"background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0 rgba(255, 235, 235, 206), stop:0.35 rgba(255, 188, 188, 80), stop:0.4 rgba(255, 162, 162, 80), stop:0.425 rgba(255, 132, 132, 156), stop:0.44 rgba(252, 128, 128, 80), stop:1 rgba(255, 255, 255, 0));\n"
 "")
