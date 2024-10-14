@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>883</width>
-    <height>747</height>
+    <width>884</width>
+    <height>909</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -303,8 +303,8 @@
    <string>Investment Calculator</string>
   </property>
   <property name="windowIcon">
-   <iconset theme="computer">
-    <normaloff>.</normaloff>.</iconset>
+   <iconset resource="calcres.qrc">
+    <normaloff>:/icons/icons/calculate.png</normaloff>:/icons/icons/calculate.png</iconset>
   </property>
   <property name="windowOpacity">
    <double>0.950000000000000</double>
@@ -320,11 +320,11 @@ QMainWindow {
 
 QPushButton {
     background-color: #2E7D32; /* Dark green background */
-    border: 3px solid #FFD700; /* Gold border */
-    border-radius: 15px; /* Rounded corners */
-    font-family: &quot;Math Jax_AMS&quot;; /* Built-in font */
-    font-size: 19px; /* Font size */
-    padding: 9px; /* Padding around the text */
+    border: 2px solid #FFD700; /* Gold border */
+    border-radius: 14px; /* Rounded corners */
+    /*font-family: &quot;Math Jax_AMS&quot;; /* Built-in font */
+    /*font-size: 19px; /* Font size */
+    padding: 7px; /* Padding around the text */
     color: #de7a63; /* White text */
 }
 
@@ -344,8 +344,8 @@ QPushButton:disabled {
 }
 
 QRadioButton {
-    font-family: &quot;Courier New&quot;; /* Built-in font */
-    font-size: 16px; /* Font size */
+    /*font-family: &quot;Courier New&quot;; /* Built-in font */
+    /*font-size: 16px; /* Font size */
     color: #de7a63; /* Light grey text */
 }
 
@@ -370,7 +370,7 @@ QLineEdit {
     border: 2px solid #FFD700; /* Gold border */
     background-color: #a3b8c8; /* Dark green background */
     color: white; /* White text */
-    font-family: &quot;Courier New&quot;; /* Built-in font */
+    /*font-family: &quot;Courier New&quot;; /* Built-in font */
     font-size: 16px; /* Font size */
     padding: 5px; /* Padding */
     border-radius: 10px;
@@ -464,10 +464,16 @@ QCheckBox::indicator:unchecked {
     <item row="0" column="0">
      <layout class="QVBoxLayout" name="verticalLayout">
       <item alignment="Qt::AlignHCenter">
-       <widget class="QLabel" name="label">
+       <widget class="QLabel" name="titleLabel">
+        <property name="font">
+         <font>
+          <family>Rozha One</family>
+          <pointsize>36</pointsize>
+         </font>
+        </property>
         <property name="styleSheet">
          <string notr="true">background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0 rgba(255, 235, 235, 206), stop:0.35 rgba(255, 188, 188, 80), stop:0.4 rgba(255, 162, 162, 80), stop:0.425 rgba(255, 132, 132, 156), stop:0.44 rgba(252, 128, 128, 80), stop:1 rgba(255, 255, 255, 0));
-font: 29pt &quot;Winks&quot;;</string>
+</string>
         </property>
         <property name="frameShape">
          <enum>QFrame::NoFrame</enum>
@@ -519,7 +525,7 @@ font: 29pt &quot;Winks&quot;;</string>
         <item row="7" column="1" alignment="Qt::AlignLeft">
          <widget class="QLCDNumber" name="yr6">
           <property name="digitCount">
-           <number>8</number>
+           <number>9</number>
           </property>
           <property name="segmentStyle">
            <enum>QLCDNumber::Flat</enum>
@@ -532,7 +538,7 @@ font: 29pt &quot;Winks&quot;;</string>
            <bool>false</bool>
           </property>
           <property name="digitCount">
-           <number>8</number>
+           <number>9</number>
           </property>
           <property name="segmentStyle">
            <enum>QLCDNumber::Flat</enum>
@@ -552,7 +558,7 @@ font: 29pt &quot;Winks&quot;;</string>
         <item row="3" column="1" alignment="Qt::AlignLeft">
          <widget class="QLCDNumber" name="yr3">
           <property name="digitCount">
-           <number>8</number>
+           <number>9</number>
           </property>
           <property name="segmentStyle">
            <enum>QLCDNumber::Flat</enum>
@@ -562,7 +568,7 @@ font: 29pt &quot;Winks&quot;;</string>
         <item row="12" column="1" alignment="Qt::AlignLeft">
          <widget class="QLCDNumber" name="yr11">
           <property name="digitCount">
-           <number>8</number>
+           <number>9</number>
           </property>
           <property name="segmentStyle">
            <enum>QLCDNumber::Flat</enum>
@@ -586,7 +592,7 @@ font: 29pt &quot;Winks&quot;;</string>
         <item row="6" column="1" alignment="Qt::AlignLeft">
          <widget class="QLCDNumber" name="yr5">
           <property name="digitCount">
-           <number>8</number>
+           <number>9</number>
           </property>
           <property name="segmentStyle">
            <enum>QLCDNumber::Flat</enum>
@@ -610,7 +616,7 @@ font: 29pt &quot;Winks&quot;;</string>
         <item row="11" column="1" alignment="Qt::AlignLeft">
          <widget class="QLCDNumber" name="yr10">
           <property name="digitCount">
-           <number>8</number>
+           <number>9</number>
           </property>
           <property name="segmentStyle">
            <enum>QLCDNumber::Flat</enum>
@@ -620,7 +626,7 @@ font: 29pt &quot;Winks&quot;;</string>
         <item row="9" column="1" alignment="Qt::AlignLeft">
          <widget class="QLCDNumber" name="yr8">
           <property name="digitCount">
-           <number>8</number>
+           <number>9</number>
           </property>
           <property name="segmentStyle">
            <enum>QLCDNumber::Flat</enum>
@@ -651,7 +657,7 @@ font: 29pt &quot;Winks&quot;;</string>
         <item row="8" column="1" alignment="Qt::AlignLeft">
          <widget class="QLCDNumber" name="yr7">
           <property name="digitCount">
-           <number>8</number>
+           <number>9</number>
           </property>
           <property name="segmentStyle">
            <enum>QLCDNumber::Flat</enum>
@@ -668,7 +674,7 @@ font: 29pt &quot;Winks&quot;;</string>
         <item row="5" column="1" alignment="Qt::AlignLeft">
          <widget class="QLCDNumber" name="yr4">
           <property name="digitCount">
-           <number>8</number>
+           <number>9</number>
           </property>
           <property name="segmentStyle">
            <enum>QLCDNumber::Flat</enum>
@@ -685,7 +691,7 @@ font: 29pt &quot;Winks&quot;;</string>
         <item row="10" column="1" alignment="Qt::AlignLeft">
          <widget class="QLCDNumber" name="yr9">
           <property name="digitCount">
-           <number>8</number>
+           <number>9</number>
           </property>
           <property name="segmentStyle">
            <enum>QLCDNumber::Flat</enum>
@@ -695,7 +701,7 @@ font: 29pt &quot;Winks&quot;;</string>
         <item row="1" column="1" alignment="Qt::AlignLeft">
          <widget class="QLCDNumber" name="yr2">
           <property name="digitCount">
-           <number>8</number>
+           <number>9</number>
           </property>
           <property name="segmentStyle">
            <enum>QLCDNumber::Flat</enum>
@@ -835,13 +841,15 @@ font: 29pt &quot;Winks&quot;;</string>
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>883</width>
+     <width>884</width>
      <height>34</height>
     </rect>
    </property>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
- <resources/>
+ <resources>
+  <include location="calcres.qrc"/>
+ </resources>
  <connections/>
 </ui>
