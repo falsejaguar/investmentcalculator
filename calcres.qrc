@@ -1,0 +1,13 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>icons/cycle.png</file>
+    <file>icons/paid.png</file>
+    <file>icons/finance.png</file>
+    <file>icons/calculate.png</file>
+  </qresource>
+  <qresource prefix="fonts">
+    <file>fonts/RozhaOne-Regular.ttf</file>
+    <file>fonts/PirataOne-Regular.ttf</file>
+    <file>fonts/ProtestStrike-Regular.ttf</file>
+  </qresource>
+</RCC>
